@@ -1,5 +1,5 @@
 "use strict";
- directive('gridCellGenerator',
+angular.module("gridProject").directive('gridCellGenerator',
         function () {
             var gridCellGen = {};
             gridCellGen.restrict = 'E';
