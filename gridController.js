@@ -1,5 +1,5 @@
 "use strict";
- controller('gridController',
+ angular.module("gridProject").controller('gridController',
 		function () {
 				
                 $scope.gridData = {};
