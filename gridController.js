@@ -1,6 +1,6 @@
 "use strict";
- angular.module("gridProject").controller('gridController',["$compile",
-		function ($compile) {
+ angular.module("gridProject").controller('gridController',["$scope","$compile",
+		function ($scope,$compile) {
 				
                 $scope.gridData = {};
 
