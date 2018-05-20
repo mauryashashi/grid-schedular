@@ -1,6 +1,6 @@
 "use strict";
 
-    directive('gridCell', function () {
+angular.module("gridProject").directive('gridCell', function () {
 
         var gridCellDir = {};
 
